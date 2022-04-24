@@ -1,0 +1,46 @@
+
+.box {
+
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    margin: 30px 30px auto;
+    padding: 30px 30px 30px 30px;
+    background:linear-gradient(0deg,#292d38 56%,transparent),linear-gradient(270deg,#d6d3d6,#6b6b6c);
+    border-radius: 6px;
+    display: grid;
+    
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/bg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Input {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-color: transparent;
+    opacity: 0.5;
+    font-family: system-ui;
+    color: aliceblue;
+    font-size: medium;
+    
+}
+
+.Button {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-color: transparent;
+    opacity: 0.5;
+    font-family: system-ui;
+    color: aliceblue;
+    font-size: medium;
+    
+}

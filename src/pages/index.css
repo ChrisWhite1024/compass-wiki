@@ -1,0 +1,20 @@
+.boxNormal {
+  background:linear-gradient(0deg,#292d38 36%,transparent),linear-gradient(270deg,#a26da2,#7878ca);
+  border-radius: 6px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+.bg {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/bg3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titles {
+  font-size: large;
+  color: aliceblue;
+}
