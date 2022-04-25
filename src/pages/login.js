@@ -5,7 +5,7 @@ import { Button, Col, Divider, Input, Row } from 'antd'
 
 function Login() {
     return (
-    <QueueAnim type='bottom' duration={1000} interval={1000}>
+    <QueueAnim type='left' duration={1000} interval={1000}>
         <div className={styles.bg} key="1">
         <QueueAnim>
         <div className={styles.box} key="1">

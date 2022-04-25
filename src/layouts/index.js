@@ -39,7 +39,7 @@ function BasicLayout(props) {
               </div>
             </div>
         </Header>
-        <Content>
+        <Content className={styles.bg}>
           {props.children}
         </Content>
     </Layout>

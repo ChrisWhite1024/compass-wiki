@@ -4,8 +4,8 @@
     float: right;
     width: fit-content;
     height: fit-content;
-    margin: 30px 30px auto;
-    padding: 30px 30px 30px 30px;
+    margin: 2rem;
+    padding: 2rem;
     background:linear-gradient(0deg,#292d38 56%,transparent),linear-gradient(270deg,#d6d3d6,#6b6b6c);
     border-radius: 6px;
     display: grid;
@@ -22,8 +22,8 @@
 }
 
 .Input {
-    width: 200px;
-    height: 40px;
+    width: 15rem;
+    height: 3rem;
     background-color: black;
     border-color: transparent;
     opacity: 0.5;
@@ -34,8 +34,8 @@
 }
 
 .Button {
-    width: 200px;
-    height: 40px;
+    width: 15rem;
+    height: 3rem;
     background-color: black;
     border-color: transparent;
     opacity: 0.5;

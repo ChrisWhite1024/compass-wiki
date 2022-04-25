@@ -31,3 +31,12 @@
   text-align: center;
   margin-left: 10px;
 }
+
+.bg {
+  width: 100%;
+  background-image: url(../assets/bg3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

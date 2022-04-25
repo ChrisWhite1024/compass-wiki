@@ -1,16 +1,15 @@
-
 // ref: https://umijs.org/config/
 export default {
+  hash: true,
   treeShaking: true,
   routes: [
     {
       path: '/',
       component: '../layouts/index',
       routes: [
-        { path: '/', component: '../pages/index' },
+        { path: '/', component: '../pages/index',title: 'COMPASS-WIKI' },
         { path: '/login', component: '../pages/login' },
-        { path: '/passage/:type', component: '../pages/passage' },
-        { path: '/game', component: '../pages/game' }
+        { path: '/passage/:type', component: '../pages/passage' }
       ]
     }
   ],
